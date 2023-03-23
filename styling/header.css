@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 0 10px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    #SmallLogo {
+      display: none;
+    }
+  }
+  
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(56, 56, 56);
+        overflow: hidden;
+        position: fixed;
+    }
+
+    #leftS {
+        display: none;
+    }
+
+
+}
+
+
+
+#leftS {
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+}
+
+#SmallLogo { 
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+}
+
+
+#rightNav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Sofia", sans-serif;
+}
+
+article { 
+    background-color: rgb(85, 85, 85);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wlcm { 
+    display: grid;
+    justify-content: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 127, 80);
+
+}

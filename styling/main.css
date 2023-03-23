@@ -1,0 +1,104 @@
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+      width: 400px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  .article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.8);
+    border-radius: 8px;
+
+  }
+  
+  .article img {
+    max-width: 100%;
+  }
+  
+  .article h3 {
+    margin-top: 0;
+  }
+  
+  .article p {
+    margin-bottom: 0;
+  }
+
+  
+  .block {
+    margin-top: 80em;
+  }
+
+  
+
+  .add { 
+    color: black;
+    font: bold;
+    font-family: 10rem;
+  }
+
+  body {
+    background-color: rgb(253, 248, 238);
+  }
+
+  .Schedule { 
+    
+    border: solid 2px rgb(8, 8, 8);
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 300px; 
+    height: 400px;
+    padding: 10px;
+
+  }
+
+  .widget { 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*.Hours { 
+    font-size: small;
+  }*/
+
+  .Day {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .STitle {
+    text-align: center;
+    color: coral;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .Schedule {
+      display: none;
+    }
+
+
+  }
+  
+  @media screen and (max-width: 1400px) { 
+    .Schedule {
+      width: 150px;
+    
+    }
+  }

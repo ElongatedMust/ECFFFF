@@ -1,0 +1,28 @@
+.Menu { 
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    border: solid 2px black;
+    max-width: 500px;
+    text-align: center;
+}
+h1 { 
+    color: coral;
+}
+.p1 { 
+    font-weight: bold;
+}
+.p2 { 
+    font-size: small;
+}
+
+.p4 { 
+    font-weight: bold;
+}
+
+
+
+body {
+    background-color: rgb(253, 248, 238);
+}
